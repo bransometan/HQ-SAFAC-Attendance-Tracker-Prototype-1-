@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.isafac">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/safac_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="LockedOrientationActivity">
+        <activity android:name=".GeneratePasswordCos"
+            android:label="@string/generatepassword"
+            android:parentActivityName=".EnterPasswordCos"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".EnterPasswordCos"
+            android:label="@string/enterpasswordcos"
+            android:parentActivityName=".HomePage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OverallCosList"
+            android:label="@string/overallcoslist"
+            android:parentActivityName=".HomePage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SelectBranchRS"
+            android:label="@string/selectbranch"
+            android:parentActivityName=".HomePage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ReportStrList"
+            android:label="@string/reportstrengthlist"
+            android:parentActivityName=".SelectBranchRS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Overallcos"
+            android:label="@string/overallcos"
+            android:parentActivityName=".OverallCosList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UpdateProfile"
+            android:label="@string/updateprofile"
+            android:parentActivityName=".HomePage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ReportStrength"
+            android:label="@string/reportstrength"
+            android:parentActivityName=".ReportStrList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginPage"
+            android:label="@string/login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RegistrationPage"
+            android:label="@string/register"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AnnouncementPage"
+            android:label="@string/emailverification"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HomePage"
+            android:label="@string/homepage"
+            android:screenOrientation="portrait" />
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

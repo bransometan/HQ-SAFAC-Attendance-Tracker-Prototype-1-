@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "505960687141",
+    "firebase_url": "https://isafac-8f9e4.firebaseio.com",
+    "project_id": "isafac-8f9e4",
+    "storage_bucket": "isafac-8f9e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505960687141:android:42ad4462ab63b4be7541cc",
+        "android_client_info": {
+          "package_name": "com.example.isafac"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "505960687141-1r8atjhcqs7957867imqvni6q9n9eqpe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5ABbkZzKjGsdvO994U93pg6qp5a6lsZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "505960687141-1r8atjhcqs7957867imqvni6q9n9eqpe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

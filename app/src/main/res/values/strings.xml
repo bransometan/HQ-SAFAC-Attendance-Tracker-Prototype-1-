@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">iSAFAC</string>
+    <string name="register">iSAFAC Registration</string>
+    <string name="login">iSAFAC Login</string>
+    <string name="emailverification">iSAFAC Email Verification</string>
+    <string name="homepage">iSAFAC Homepage</string>
+    <string name="passwordreset">iSAFAC Reset Password</string>
+    <string name="overallcos">iSAFAC Overall COS</string>
+    <string name="reportstrength">iSAFAC Report Strength</string>
+    <string name="updateprofile">iSAFAC Update Profile</string>
+    <string name="reportstrengthlist">Parade Strength</string>
+    <string name="selectbranch">Select Branch</string>
+    <string name="overallcoslist">Overall Parade Strength</string>
+    <string name="enterpasswordcos">Enter Password</string>
+    <string name="generatepassword">Generate Password</string>
+</resources>
